@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Tell me about yourself",
+        "Who is Sourabh Mhaski?",
+        "What are you currently doing?"
+      ],
+      "responses": [
+        "I am Sourabh Mhaski, research scholar at Department of Civil Engineering, IIT Delhi.",
+        "I am Sourabh Mhaski, a PhD scholar from IIT Delhi"
+      ]
+    },
+    {
+      "tag": "TA",
+      "patterns": [
+        "Tell me about your TA-ship",
+        "Tell me about your teaching assistant experience"
+      ],
+      "responses": [
+        "Sourabh has served as the TA of CVL222: Soil Mechanics & CVL700: Engineering Behaviour of Soils"
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "What awards have you won?",
+        "What awards have Sourabh won?",
+        "Tell me about some of your scholastic achievements",
+        "Tell me about some of your achievements"
+      ],
+      "responses": [
+        "Sourabh has been awarded the Prime Minister's Research Fellowship[PMRF]",
+        "Sourabh has won IIT Delhi's Institute Silver Medalist for securing DR1 among graduating civil engineering students[Class of 2018]"
+      ]
+    },
+    {
+      "tag": "Research",
+      "patterns": [
+        "Tell me about your research",
+        "Which research areas are you focused in?",
+        "What is the tile of your current research thesis?",
+        "What is Sourabh Mhaski's research area? "
+      ],
+      "responses": [
+        "Thesis title: Geodisasters - Simulations and Remedial Measures using Smoothed Particle Hydrodynamics (SPH)",
+        "Sourabh is developing a Smoothed Particle Hydrodynamics (SPH) based numerical framework for solving multiphysics problems, primarily related to geotechnical engineering."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Where can I contact you?",
+        "I want to discuss some opportunities & ideas"
+      ],
+      "responses": [
+        "You can reach out to me at sourabhmhaski@gmail.com"
+      ]
+    }
+  ]
+}

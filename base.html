@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tarun's Personal page</title>
+</head>
+<body>
+
+    
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+
+
+
+
+
+    <table cellspacing="10">
+        <tr>
+          <td><img src="123456.jpg" width="150" height="150" alt=""></td>
+          <td>
+            <h1>Tarun Gaur</h1>
+            <p>Final year student at <a href="https://home.iitd.ac.in/">IIT Delhi</a></p>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    
+      <h2>Previous Schools</h2>
+      <ul>
+        <li>NIT Delhi</li>
+        <li>RIS</li>
+      </ul>
+    
+      <h2>Internships</h2>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JEECarnot</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>No Help Too Big</td>
+            <td>2021-2022</td>
+          </tr>
+        </tbody>
+      </table>
+    
+      <h2>Skillset</h2>
+      <table border=1>
+        <tbody>
+          <tr>
+            <td>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>C++</td>
+                    <td>❤❤❤❤❤</td>
+                  </tr>
+                  <tr>
+                    <td>Python</td>
+                    <td>❤❤❤❤❤</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+            <td>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>❤❤❤</td>
+                  </tr>
+                  <tr>
+                    <td>Java</td>
+                    <td>❤❤</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+    <hr>
+    
+    <p><a href="contact.html">Contact Me</a></p>
+</body>
+</html>
