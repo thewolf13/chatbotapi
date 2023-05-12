@@ -55,19 +55,6 @@
       ]
     },
     {
-      "tag": "achievements",
-      "patterns": [
-        "What awards have you won?",
-        "What awards have Sourabh won?",
-        "Tell me about some of your scholastic achievements",
-        "Tell me about some of your achievements"
-      ],
-      "responses": [
-        "Sourabh has been awarded the Prime Minister's Research Fellowship[PMRF]",
-        "Sourabh has won IIT Delhi's Institute Silver Medalist for securing DR1 among graduating civil engineering students[Class of 2018]"
-      ]
-    },
-    {
       "tag": "Research",
       "patterns": [
         "Tell me about your research",
@@ -81,10 +68,146 @@
       ]
     },
     {
+      "tag": "Geo-Disasters", 
+      "patterns": [
+        "Tell me about geo-disasters",
+        "What are some common geo-disasters that can be simulated"
+      ],
+      "responses": [
+        "Geo-disasters are one kind of natural hazards, including landslides, debris flows, earthquakes, lique- factions, which can result in serious causalities and economic loss.",
+        "Geo-disaster events like landslides; liquefaction; flow slides in waste dumps, dams, ash-ponds, tailings dams, etc., can be simulated",
+        "https://en.wikipedia.org/wiki/Disaster"
+      ]
+    },
+    {
+      "tag": "Books",
+      "patterns": [
+        "Suggest me some basic books",
+        "Give me some basic books on this topic",
+        "Suggest me some books on SPH",
+        "How can I get started with SPH?",
+        "Suggest me some more books",
+        "What is SPH?",
+        "What is Smoothed Particle Hydrodynamics?",
+        "What is SPH modelling"
+      ],
+      "responses": [
+        "https://www.worldscientific.com/worldscibooks/10.1142/5340#t=aboutBook",
+        "https://link.springer.com/book/10.1007/978-3-030-00773-7",
+        "https://www.worldscientific.com/worldscibooks/10.1142/9017#t=aboutBook",
+        "https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics"
+      ]
+    },
+    {
+      "tag": "Research Paper1",
+      "patterns": [
+        "Suggest me some research paper on slope stability analysis",
+        "Slope stability analysis",
+        "Give me a research paper on slope stability analysis",
+        "Where can I read about slope stability analysis",
+        "How to know about slope stability analysis"
+      ],
+      "responses": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/nag.1084"
+      ]
+    },
+    {
+      "tag": "Research Paper2",
+      "patterns": [
+        "Suggest me some research paper on Hydraulic Heave",
+        "Hydraulic Heave",
+        "Give me a research paper on Hydraulic Heave",
+        "Where can I read about Hydraulic Heave",
+        "How to know about Hydraulic Heave ",
+        "What is Hydraulic Heave?"
+      ],
+      "responses": [
+        "https://link.springer.com/article/10.1007/s11440-017-0610-9"
+      ]
+    },
+    {
+      "tag": "Research Paper3",
+      "patterns": [
+        "Suggest me some research paper on core overtopping",
+        "core overtopping and rockfill embankment",
+        "rockfill embankment",
+        "Give me a research paper on core overtopping",
+        "Where can I read about core overtopping",
+        "How to know about core overtopping"
+      ],
+      "responses": [
+        "https://link.springer.com/article/10.1007/s11440-017-0610-9"
+      ]
+    },
+    {
+      "tag": "Research Paper4",
+      "patterns": [
+        "Suggest me some research paper on collision of elastic rings",
+        "collision of elastic rings",
+        "Give me a research paper on collision of elastic rings",
+        "Where can I read about collision of elastic rings",
+        "How to know about collision of elastic rings"
+      ],
+      "responses": [
+        "https://www.sciencedirect.com/science/article/pii/S0021999100964398"
+      ]
+    },
+    {
+      "tag": "Research Paper5",
+      "patterns": [
+        "Suggest me some research paper on yield under tension",
+        "yield under tension",
+        "Give me a research paper on yield under tension",
+        "Where can I read about yield under tension",
+        "How to know about yield under tension"
+      ],
+      "responses": [
+        "https://www.sciencedirect.com/science/article/pii/S0045782501002547"
+      ]
+    },
+    {
+      "tag": "Research Paper6",
+      "patterns": [
+        "Suggest me some research paper on fluid dambreak",
+        "fluid dambreak",
+        "Give me a research paper on fluid dambreak",
+        "Where can I read about fluid dambreak",
+        "How to know about fluid dambreak"
+      ],
+      "responses": [
+        "https://www.sciencedirect.com/science/article/pii/S0021999115004787"
+      ]
+    },
+    {
+      "tag": "Research Paper7",
+      "patterns": [
+        "Suggest me some research paper on heat conduction",
+        "heat conduction",
+        "Give me a research paper on heat conduction",
+        "Where can I read about heat conduction",
+        "How to know about heat conduction"
+      ],
+      "responses": [
+        "https://link.springer.com/book/10.1007%2F978-3-030-00773-7"
+      ]
+    },
+    {
+      "tag": "software simulation",
+      "patterns": [
+        "Show me the visual simulation",
+        "Visual simulation",
+        "Software simulation"
+      ],
+      "responses": [
+        "https://sourabhmhaski.github.io/software/"
+      ]
+    },
+    {
       "tag": "contact",
       "patterns": [
         "Where can I contact you?",
-        "I want to discuss some opportunities & ideas"
+        "I want to discuss some opportunities & ideas",
+        "How can I reach you?"
       ],
       "responses": [
         "You can reach out to me at sourabhmhaski@gmail.com"
